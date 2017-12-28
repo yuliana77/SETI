@@ -1,0 +1,18 @@
+ //订单表
+{
+	"order":
+	[
+		{
+		"OrderTime" : 1511841074,    // 下单时间
+		"OrderNumber" : 97551100357994216,   //订单编号
+		"amount" : 18,   //订单金额
+		"payAmount":12, //给分销商
+		"otherAmount":0, //其他金额  可能是给的差价
+		"state" : 1,  //订单状态  1为交易成功   0为交易关闭
+		"inName" : "Ciel",  //  进帐人
+		"outName" : "Ciel",  //   出账人   给分销商
+		"earnings":6 ,//收益金额
+		"remark":"客户订单"  //备注
+		}
+	]
+}
