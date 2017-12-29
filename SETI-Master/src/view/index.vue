@@ -25,6 +25,10 @@
                             <Icon type="card" :size="iconSize"></Icon>
                             <span class="layout-text">支出表</span>
                         </MenuItem>
+                        <MenuItem name="4" @click.native="goPage(3)">
+                            <Icon type="card" :size="iconSize"></Icon>
+                            <span class="layout-text">售后表</span>
+                        </MenuItem>
                     </Menu>
                 </Col>
                 <Col span="19">
@@ -79,7 +83,10 @@
                         break;
                     case 2:
                         this.$router.push({name:'disbursement'});
-                        break;    
+                        break; 
+                    case 3:
+                        this.$router.push({name:'refund'});
+                         break;    
                 }
             }
         },

@@ -26,6 +26,25 @@
                     {
                         title:"支出备注",
                         key:'remark'
+                    },
+                    {
+                        title:"操作",
+                        key:"action",
+                        width:100,
+                        align:"center",
+                        render:(seti,ct) =>{
+                            return seti("Button",{
+                                props:{
+                                    type:"error",
+                                    size:"small"
+                                },
+                                on:{
+                                    click:()=>{
+                                        this.dataList.splice(ct.index,1)
+                                    }
+                                }
+                            },"删除")
+                        }
                     }
                 ],
                 dataList: []

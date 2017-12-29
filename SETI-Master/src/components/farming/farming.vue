@@ -34,6 +34,23 @@
                     {
                         title:"出账人",
                         key:'outName'
+                    },
+                    {
+                        title:"操作",
+                        key:"action",
+                        render:(seti,ct) =>{
+                            return seti("Button",{
+                                props:{
+                                    type:"error",
+                                    size:"small"
+                                },
+                                on:{
+                                    click:()=>{
+                                        this.dataList.splice(ct.index,1)
+                                    }
+                                }
+                            },"删除")
+                        }
                     }
                 ],
                 dataList: []
