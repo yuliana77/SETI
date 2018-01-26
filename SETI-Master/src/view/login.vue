@@ -43,6 +43,9 @@
 	.ivu-form-item-content>div{
 		border: 0;
 	}
+	.ivu-btn .ivu-btn-primary{
+		
+	}
 </style>
 <script>
     export default {
@@ -68,7 +71,7 @@
                 this.$refs[names].validate((valid) => {
                     if (valid) {
                         this.$Message.success('登录成功!');
-                        this.$router.push({name:'order'})
+                        this.$router.push({name:'main'})
                     } else {
                         this.$Message.error('登录失败!');
                     }
