@@ -19,7 +19,8 @@ export default {
   text-align: center;
   color: #4a4a4a;
   font-size: 16px;
-  background-color: #f8e7cd;
+  background: url(assets/img/bj.jpg);
+  background-size:auto 100%;
   height: 100%;
   width: 100%;
 }

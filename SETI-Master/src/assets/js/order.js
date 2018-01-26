@@ -187,7 +187,7 @@
 			"OrderNumber" :    96210353618138667 ,   //订单编号
 			"amount" : 47.98,   //订单金额
 			"payAmount":36.84, //给分销商
-			"otherAmount":10.00, //其他金额  可能是给的差价
+			"otherAmount":10, //其他金额  可能是给的差价
 			"state" :  "交易成功",  //订单状态  1为交易成功   0为交易关闭
 			"inName" : "Ciel",  //  进帐人
 			"outName" : "Ciel",  //   出账人   给分销商

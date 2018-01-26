@@ -1,13 +1,6 @@
 <template>
     <div class="layout">
-        <Menu mode="horizontal" theme="dark" active-name="1">
-            <div class="layout-logo">
-                <img src="../assets/img/setiLogo.png" >
-            </div>
-            <div class="layout-nav">
-               <h1>SETI瑟缇管理系统后台</h1>
-            </div>
-        </Menu>
+        <h1>SETI瑟缇管理系统后台</h1>
         <div class="layout-content">
             <Row>
                  <Col :span="spanLeft" class="layout-menu-left">
